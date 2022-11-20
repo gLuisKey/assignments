@@ -91,6 +91,10 @@ color: black;
 	font-size: 120%;
 }
 
+.main-content2 {
+	height: auto;
+}
+
 
 }
 
@@ -260,4 +264,102 @@ margin-top: 10px;
 	width: 100%;
 	height: auto;
 	clear: both;
+}
+
+
+@media (max-width: 768px) {
+
+.main-content3 {
+	height: auto;
+}
+
+.main-content2 {
+	height: auto;
+}
+
+}
+
+
+#navigation-pan {
+	font-style: italic;
+	color: #2f2f2f;
+	display: flex;
+	align-items: center;
+	margin: 10px;
+
+
+
+}
+
+
+.navigation-pan {
+	margin-left: 20px;
+	margin-right: 20px;
+	
+
+
+}
+
+a.navigation-pan {
+	text-decoration: none;
+	color: #2f2f2f;;
+	
+
+
+}
+
+
+a.navigation-pan:hover {
+	background-color: black;
+	color: white;
+
+
+}
+
+
+#contacts {
+	float: right;
+	margin-right: 40px;
+
+}
+
+
+#navigation-pan {
+	float: left;
+
+}
+
+.bi-instagram {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+.bi-facebook {
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: black;
+}
+
+
+.bi-telegram {
+
+	width: 50px;
+	height: 50px;
+	margin-left: 10px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: black;
+
+}
+
+#PhoneNumber {
+	margin-bottom: 10px;
+	margin-top: 10px;
 }
