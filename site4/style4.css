@@ -1,0 +1,164 @@
+#box-catholog {
+
+	border: 2px solid black;
+	width: 19%;
+	height: auto;
+
+}
+
+.catholog-items {
+	font-size: 30px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: left;
+	border: 1px solid black;
+}
+
+#box-catholog a {
+	text-decoration: none;
+	color: black;
+}
+
+#box-catholog a:hover {
+
+	background-color: black;
+	color: white;
+}
+
+#box-catholog {
+	float: left;
+	margin-right: 10px;
+}
+
+
+#heading-catholog {
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+#heading-catholog h1 {
+	text-align: center;
+}
+
+#heading-catholog h3 {
+	text-align: center;
+}
+
+.images-catholog {
+
+	margin-left: 40px;
+}
+
+.heading-catholog2 {
+	
+	font-size: 40px;
+}
+
+.description-catholog {
+	text-align: center;
+}
+
+.price-catholog {
+
+	text-align: center;
+	font-weight: bold;
+}
+
+
+@media (max-width: 992px) {
+
+.catholog-items {
+	font-size: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: left;
+	border: 1px solid black;
+}
+
+}
+
+@media (max-width: 992px) {
+
+.catholog-items {
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: left;
+	border: 1px solid black;
+}
+
+
+.images-catholog img {
+	width: 180px;
+	height: 180px;
+
+
+
+} 
+
+
+
+}
+
+@media (max-width: 440px) {
+
+.catholog-items {
+	font-size: 12px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	display: flex;
+	align-items: left;
+	border: 1px solid black;
+}
+
+}
+
+
+@media (max-width: 1200px) {
+
+	.images-catholog {
+
+	margin-left: 0px;
+}
+
+
+}
+
+
+@media (min-width: 552px) and (max-width: 768px) {
+
+.images-catholog {
+
+	display: flex;
+	justify-content: center;
+	width: 400px;
+}
+
+
+}
+
+
+@media (min-width: 540px) and (max-width: 552px) {
+
+	.images-catholog {
+
+	margin-left: 120px;
+}
+
+
+}
+
+
+@media (min-width: 412px) and (max-width: 450px) {
+
+	.images-catholog {
+
+	margin-left: 50px;
+}
+
+
+}
