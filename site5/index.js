@@ -1,16 +1,36 @@
 
 
-function answers1() {
+let message = "GlobalScope"
 
-document.getElementById('theRightAnswer').innerHTML = "Я тут вообще не удивлён";
+
+let a = function () {
+
+let message = "inside a";
+console.log("a:message = " + message)
+
+
+function b () {
+
+console.log("a:message = " + message)
+
+
+
 
 }
 
-function answers2() {
 
 
-document.getElementById('theRightAnswer').innerHTML = "Ты, на самом деле, пидор. Спасибо за внимание";
+}
 
 
 
+a()
+
+if (false || nul ||
+	undefined || "" || 0 || NaN) {
+	console.log("This line won't ever execute")
+}
+
+else {
+	console.log ("All false")
 }
