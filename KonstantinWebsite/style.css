@@ -1,0 +1,287 @@
+
+/* GENERAL */
+
+* {
+	box-sizing: border-box;
+
+}
+
+body {
+	margin: 0;
+	color: white;
+	background-color: #E5E5E5;
+}
+
+.container {
+
+	width: 100%;
+	max-width: 1400px;
+	margin: 0 auto;
+}
+
+
+
+
+/* HEADER */
+
+
+.header {
+	background-image: url(images/heroimage.png);
+	height: 100vh;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-size: cover;
+}
+
+.logo {
+	background-image: url(images/logo.png);
+	width: 100px;
+	height: 68px;
+	background-repeat: no-repeat;
+	margin-top: 50px;
+
+
+}
+
+.header_inner {
+	display: flex;
+	justify-content: space-between;
+
+}
+
+
+
+
+/* NAVIGATION */
+
+.nav_inner {
+	display: inline-flex;
+}
+
+
+
+.nav-elements {
+	margin-left: 20px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.nav_elements {
+	margin-right: 70px;
+	margin-top: 75px;
+	
+
+
+}
+
+.phone_data {
+	padding-left: 34px;
+	border-left: 1px solid white;
+	margin-right: 50px;
+	margin-top: 55px;
+}
+
+.phone_number {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+	text-decoration: none;
+	padding-bottom: 5px;
+
+	
+}
+
+.phone_subtitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #FFFFFF;
+	
+}
+
+.btn {
+	margin-top: 59px;
+	width: 157px;
+	height: 47px;
+	background-color: #FF7400;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+}
+
+
+
+/* INTRO */
+
+.header_title {
+	display: flex;
+	position: absolute;
+	top: 322px;
+	left: 175px;
+
+	align-items: center;
+	text-align: center;
+}
+
+.header_subtitle1 {
+	font-family: "Tinos", sans-serif;
+	font-weight: 400;
+	font-size: 50px;
+	color: #D67E35;
+
+}
+
+.header_subtitle2 {
+		font-family: "Tinos", sans-serif;
+	font-weight: 400;
+	font-size: 80px;
+	color: #D67E35;
+}
+
+
+.header_subtitle3 {
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 18px;
+	color: #FFFFFF;
+	text-transform: uppercase;
+
+
+
+}
+
+.btn1 {
+
+	margin-top: 21px;
+	width: 157px;
+	height: 47px;
+	background-color: #FF7400;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+
+.btn1:hover {
+
+	margin-top: 21px;
+	width: 157px;
+	height: 47px;
+	background-color: #FF8C00;
+	color: #FFFFFF;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
+
+.line1 {
+
+	
+	border-top: 1px solid white ;
+	width: 61px;
+	position: absolute;
+	top: 163px;
+	left: 331px;
+
+
+
+}
+
+
+.line2 {
+
+	border-top: 1px solid white ;
+	width: 61px;
+	position: absolute;
+	top: 163px;
+	left: 92px;
+
+	
+}
+
+
+/* MAIN */
+
+/* CARDS */
+
+.cards {
+	display: flex;
+	justify-content: center;
+
+
+	
+}
+
+.cards_margin {
+	margin-right: 34px;
+}
+
+.card_element {
+
+	width: 349px;
+	height: 328px;
+	background-color: #FFFFFF;
+	box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+	position: relative;
+	bottom: 75px;
+	
+
+
+
+}
+
+
+
+
+.card_title {
+
+	font-family: "Tinos" sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	color: #2C2C2C;
+	text-align: center;
+
+
+}
+
+
+.card_subtitle {
+
+	font-family: "Tinos" sans-serif;
+	font-weight: 400;
+	font-size: 26px;
+	text-align: center;
+
+	color: #656363;
+
+
+}
+
+.card_word {
+
+	color: #BC9060;
+
+}
+
+
+.card_image {
+
+	background-image: url(images/hot.png);
+	width: 87px;
+	height: 87px;
+	margin-left: 130px;
+
+}
+
