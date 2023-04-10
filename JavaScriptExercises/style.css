@@ -1,0 +1,237 @@
+/* GENERAL SETUP */
+
+* {
+	box-sizing: border-box;
+
+}
+
+
+body {
+	margin: 0;
+	
+}
+
+
+.container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1400px;
+}
+
+/* NAVBAR-MENU */
+
+.header {
+	background-color: #051937;
+	width: 100%;
+	height: 90px;
+	position: absolute;
+	
+}
+
+.nav_menu {
+	margin-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	
+}
+
+
+.nav_menu_items ul {
+
+	display: flex;
+	flex-direction: row;
+	list-style: none;
+	
+
+	
+	}
+
+
+	
+
+.nav_menu_items ul li a {
+
+text-decoration: none;
+text-transform: uppercase;
+color: white;
+font-size: 25px;
+		
+		font-family: monospace;
+}
+
+.nav_menu_items ul li {
+
+	
+	margin-right: 10px;
+	margin-left: 10px;
+	
+	
+	}
+
+
+	.header_name_title {
+
+		font-size: 25px;
+		color: white;
+		font-family: monospace;
+		
+	}
+
+	.header_name_subtitle {
+		font-size: 35px;
+		color: white;
+		font-family: monospace;
+
+	}
+
+	
+	
+	
+	.line {
+		border: 1px solid white;
+		height: 4px;
+		width: 25px;
+		margin-top: 4px;
+	}
+
+	
+
+	
+
+	.hamburger {
+		display: none;
+	}
+	/* NAVBAR MEDIA-Q*/
+
+	@media (max-width: 648px) {
+		
+		
+		
+			.header_name_title {
+		
+				font-size: 20px;
+				
+				font-family: monospace;
+				
+			}
+		
+			.header_name_subtitle {
+				font-size: 30px;
+				
+				font-family: monospace;
+		
+			}
+			.nav_menu_items ul li a {
+
+				
+				font-size: 20px;
+						
+				}
+				
+
+	}
+
+	@media (max-width: 516px) {
+		
+		
+		
+		.hamburger {
+			display: initial;
+			margin-right: 20px;
+			margin-top: 20px;
+			cursor: pointer;
+		}
+
+		
+
+	
+
+
+		
+		.nav_menu_items.active {
+			display: initial;
+			transition: 1s;
+			background-color: #051937;
+			padding: 10px;
+			width: 100%;
+			position: absolute;
+			top: 70px;
+			
+			height: fit-content;
+			
+			overflow: auto;
+			
+			
+			
+		}
+
+		.nav_menu_items.active {
+			display: initial;
+			transition: 1s;
+			background-color: #051937;
+			padding: 10px;
+			width: 100%;
+			position: absolute;
+			
+			height: fit-content;
+			transition: 0,2s;
+			overflow: auto;
+			
+			
+			
+		}
+
+
+		
+
+
+		
+		
+		.nav_menu_items {
+			
+			display: none;
+			
+			
+		}
+
+		
+
+		.nav_menu_items.active ul {
+
+			display: flex;
+			flex-direction: column;
+			list-style: none;
+			align-items: center;
+			justify-content: center;
+			
+		
+			
+			}
+
+			.nav_menu_items.active ul li a {
+
+				font-size: 25px;
+				margin-top: 5px;
+			
+				
+				}
+
+
+		}
+
+.main {
+	position: absolute;
+	top: 200px;
+}
+
+.input_styel {
+	height: 10px;
+	width: 10px
+}
+		
+			
+		
+		
+		
+			
+
